@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambah"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/create_nama"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nama"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="152dp"/>
+    <EditText
+        android:id="@+id/create_nim"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nim"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/create_jurusan"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/jurusan"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#000"
+        android:hint="Simpan"
+        android:textColorHint="#fff"
+        android:textSize="36sp" />
+
+</LinearLayout>

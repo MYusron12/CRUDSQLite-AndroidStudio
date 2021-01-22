@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DaftarMahasiswaCRUD</string>
+    <string name="selamat_datang">selamat datang</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="nama">nama</string>
+    <string name="nim">nim</string>
+    <string name="jurusan">jurusan</string>
+</resources>

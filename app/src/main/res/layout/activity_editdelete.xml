@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editdelete"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/updel_nama"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nama"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="152dp"/>
+    <EditText
+        android:id="@+id/updel_nim"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nim"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/updel_jurusan"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/jurusan"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#000"
+        android:hint="Ubah"
+        android:textColorHint="#fff"
+        android:textSize="36sp" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#000"
+        android:hint="Hapus"
+        android:textColorHint="#fff"
+        android:textSize="36sp" />
+
+</LinearLayout>
