@@ -21,7 +21,9 @@
         android:hint="@string/nama"
         android:textStyle="bold"
         android:textSize="24sp"
-        android:layout_marginTop="152dp"/>
+        android:layout_marginTop="152dp"
+        android:textColor="#000"
+        />
     <EditText
         android:id="@+id/create_nim"
         android:layout_width="287dp"
@@ -30,7 +32,8 @@
         android:hint="@string/nim"
         android:textStyle="bold"
         android:textSize="24sp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:textColor="#000"/>
     <EditText
         android:id="@+id/create_jurusan"
         android:layout_width="287dp"
@@ -39,7 +42,8 @@
         android:hint="@string/jurusan"
         android:textStyle="bold"
         android:textSize="24sp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:textColor="#000"/>
     <Button
         android:id="@+id/create_btn"
         android:layout_width="179dp"

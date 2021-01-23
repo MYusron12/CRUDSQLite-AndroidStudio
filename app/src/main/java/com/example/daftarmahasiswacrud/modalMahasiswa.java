@@ -8,7 +8,6 @@ public class modalMahasiswa {
         this._nama = nama;
         this._nim = nim;
         this._jurusan = jurusan;
-
     }
 
     public modalMahasiswa() {

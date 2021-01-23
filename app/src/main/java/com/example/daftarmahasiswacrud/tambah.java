@@ -52,6 +52,7 @@ public class tambah extends AppCompatActivity {
                     Ejurusan.setText("");
                     Toast.makeText(tambah.this, "Data telah ditambah", Toast.LENGTH_SHORT).show();
                     db.CreateMahasiswa(new modalMahasiswa(null, Snama, Snim, Sjurusan));
+                    finish();
                 }
 
             }

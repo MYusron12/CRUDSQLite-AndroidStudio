@@ -60,6 +60,7 @@ public class CustomListAdapter extends BaseAdapter {
 
         nama.setText("Nama : " + m.get_nama());
         nim.setText("Nim : " + m.get_nim());
+
         jurusan.setText("Jurusan : " + m.get_jurusan());
 
         return convertView;
