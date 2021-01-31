@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".editdelete"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/bg"
     android:orientation="vertical">
     <ImageView
         android:layout_width="67dp"
@@ -48,7 +48,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:background="#000"
+        android:background="@drawable/bg_btn"
         android:hint="Ubah"
         android:textColorHint="#fff"
         android:textSize="36sp" />
@@ -58,7 +58,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:background="#000"
+        android:background="@drawable/bg_btn"
         android:hint="Hapus"
         android:textColorHint="#fff"
         android:textSize="36sp" />

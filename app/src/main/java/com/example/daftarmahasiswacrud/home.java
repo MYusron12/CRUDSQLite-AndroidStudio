@@ -11,6 +11,7 @@ public class home extends AppCompatActivity {
 
     Button buttontambahdata;
     Button buttonlihatdata;
+    Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,15 @@ public class home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent lihatdata = new Intent(home.this, listProfile.class);
                 startActivity(lihatdata);
+            }
+        });
+
+        logout = findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent logout = new Intent(home.this, login.class);
+                startActivity(logout);
             }
         });
     }

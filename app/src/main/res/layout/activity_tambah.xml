@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".tambah"
     android:orientation="vertical"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/bg">
 
     <ImageView
         android:layout_width="67dp"
@@ -50,7 +50,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:background="#000"
+        android:background="@drawable/bg_btn"
         android:hint="Simpan"
         android:textColorHint="#fff"
         android:textSize="36sp" />

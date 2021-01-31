@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     tools:context=".login">
 
@@ -20,6 +20,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="152dp"
         android:hint="username"
+        android:textColor="#000"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -30,6 +31,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:hint="password"
+        android:textColor="#000"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -39,7 +41,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:background="#000"
+        android:background="@drawable/bg_btn"
         android:hint="Login"
         android:textColorHint="#fff"
         android:textSize="36sp" />
