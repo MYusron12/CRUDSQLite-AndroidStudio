@@ -5,12 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".editdelete"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg_updel"
     android:orientation="vertical">
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="70dp"
-        android:src="@drawable/logo"/>
 
     <EditText
         android:id="@+id/updel_nama"

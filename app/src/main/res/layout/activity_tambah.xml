@@ -6,12 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".tambah"
     android:orientation="vertical"
-    android:background="@drawable/bg">
+    android:background="@drawable/bg_add">
 
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="70dp"
-        android:src="@drawable/logo"/>
 
     <EditText
         android:id="@+id/create_nama"

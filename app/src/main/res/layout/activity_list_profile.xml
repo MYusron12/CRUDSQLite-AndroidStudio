@@ -4,14 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg_list"
     android:orientation="vertical"
     tools:context=".listProfile">
 
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="70dp"
-        android:src="@drawable/logo" />
+
 
     <ListView
         android:id="@+id/listview"

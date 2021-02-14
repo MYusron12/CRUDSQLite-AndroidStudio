@@ -4,21 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg_login"
     android:orientation="vertical"
     tools:context=".login">
-
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="70dp"
-        android:src="@drawable/logo" />
-
     <EditText
+        android:layout_marginTop="250dp"
         android:id="@+id/etloginusername"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="152dp"
         android:hint="username"
         android:textColor="#000"
         android:textSize="24sp"
@@ -45,5 +39,7 @@
         android:hint="Login"
         android:textColorHint="#fff"
         android:textSize="36sp" />
-
 </LinearLayout>
+
+
+
