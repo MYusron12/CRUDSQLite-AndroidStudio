@@ -10,7 +10,7 @@
         <clip-path android:pathData="M0 0H360V640H0V0Z" />
 
         <path
-            android:fillColor="#FFFFFF"
+            android:fillColor="#843FB5"
             android:pathData="M0 0V640H360V0" />
 
     </group>
